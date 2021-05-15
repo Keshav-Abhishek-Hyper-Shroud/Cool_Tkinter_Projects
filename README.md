@@ -2,4 +2,4 @@
 
 I learned that computer science is not just about syntax and coding. We can "make a difference" in people's lives by deleloping applications...
 
-[Python Clock](https://github.com/Keshav-Abhishek-Hyper-Shroud/Cool_Tkinter_Projects/blob/master/Calculator/Python%20Calculator.py)
+[Calculator](https://github.com/Keshav-Abhishek-Hyper-Shroud/Cool_Tkinter_Projects/blob/master/Calculator/Python%20Calculator.py)
