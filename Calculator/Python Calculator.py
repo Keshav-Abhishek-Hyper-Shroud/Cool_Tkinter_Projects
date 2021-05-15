@@ -22,7 +22,7 @@ entry_box.bind('<KeyPress>',keyboardused)
 button_frame=Frame(root,bd=0)
 button_frame.pack(pady=5)
 
-keys=[('ON/OFF',0,0),('C',0,1),('%',0,2),('DEL',0,3),('7',1,0),('8',1,1),('9',1,2),('/',1,3),('4',2,0),('5',2,1),('6',2,2),('x',2,3),('1',3,0),('2',3,1),('3',3,2),('-',3,3),('0',4,0),('.',4,1),('=',4,2),('+',4,3)]
+keys=[('ON/OFF',0,0),('C',0,1),('%',0,2),('DEL',0,3),('7',1,0),('8',1,1),('9',1,2),('÷',1,3),('4',2,0),('5',2,1),('6',2,2),('x',2,3),('1',3,0),('2',3,1),('3',3,2),('-',3,3),('0',4,0),('.',4,1),('=',4,2),('+',4,3)]
 
 # Calculation function
 def clicked(e):
@@ -30,6 +30,7 @@ def clicked(e):
 		try:
 			raw_data=entry_box.get().replace('%','/100x')
 			raw_data=raw_data.replace('x','*')
+			raw_data=raw_data.replace('÷','/')
 			data=eval(raw_data)
 			entry_box.delete(0,END)
 			entry_box.insert(0,f'{data}')
