@@ -78,7 +78,7 @@ option_menu=Menu(my_menu)
 
 # Information popup
 def showinfos():
-	messagebox.showinfo('Information!','''Hello!\n\n1. Use "//" to get only the integer value while dividing.\n\tFor example: 5//2 = 2\n\n2. Use "**" to find the square,cube,... on a number.\n\tFor example:\n\t1**2 = 1\n\t2**2 = 4\n\t2**3 = 8\n\tand many more.''')
+	messagebox.showinfo('Information!','''Hello!\n\n1. Use "÷÷" to get only the integer value while dividing.\n\tFor example: 5÷÷2 = 2\n\n2. Use "**" to find the square,cube,... on a number.\n\tFor example:\n\t1**2 = 1\n\t2**2 = 4\n\t2**3 = 8\n\tand many more.''')
 
 my_menu.add_command(label='Info',command=showinfos)
 my_menu.add_command(label='Close',command=root.destroy)
