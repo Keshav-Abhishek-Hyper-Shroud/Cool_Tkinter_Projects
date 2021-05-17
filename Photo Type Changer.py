@@ -1,5 +1,5 @@
 import os
-from PIL import Image as Img
+from PIL import Image as Img # pip install pillow
 from tkinter import *
 from tkinter import filedialog, messagebox, ttk
 import threading
@@ -10,7 +10,7 @@ root.geometry('300x220')
 root.minsize(300, 220)
 root.maxsize(300, 220)
 
-options=['PNG', 'JPEG', 'JPG', 'ICO']
+options=['PNG', 'JPEG', 'JPG', 'ICO'] # Image Types Supported by the Software
 
 def Convert(e):
 	if my_combo.get()=='PNG':
