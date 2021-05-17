@@ -10,5 +10,5 @@ I learned that computer science is not just about syntax and coding. We can "mak
 
 # Codemy.com
 
-### [Codemy.com YouTube](https://www.youtube.com/channel/UCFB0dxMudkws1q8w5NJEAmw)
-### [Codemy.com Website](https://codemy.com/)
+##### [Codemy.com YouTube](https://www.youtube.com/channel/UCFB0dxMudkws1q8w5NJEAmw)
+##### [Codemy.com Website](https://codemy.com/)
