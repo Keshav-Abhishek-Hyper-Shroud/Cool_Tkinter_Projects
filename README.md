@@ -1,4 +1,4 @@
-# Cool Tkinter Projects
+# *Cool Tkinter Projects*
 
 ## I learned that computer science is not just about syntax and coding. We can "make a difference" in people's lives by deleloping applications...
 
