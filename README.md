@@ -8,7 +8,7 @@
 
 * Link to: [Photo Type Changer.py](https://github.com/Keshav-Abhishek-Hyper-Shroud/Cool_Tkinter_Projects/blob/master/Photo%20Type%20Changer.py) & [Photo Type Changer.exe](https://drive.google.com/file/d/1sa0hpIMbWGrNbuxem_TZ-HekbQFvdx4Q/view?usp=sharing)
 
-* Link to: [GitFileUploader.py](https://github.com/Keshav-Abhishek-Hyper-Shroud/Cool_Tkinter_Projects/blob/master/GitFileUploader.py) & [GitFileUploader.exe](https://drive.google.com/file/d/14tpXtzN6gpatYPobt3Xm9iiRi1BpoadV/view?usp=sharing)
+* Link to: [GitFileUploader.py](https://github.com/Keshav-Abhishek-Hyper-Shroud/Cool_Tkinter_Projects/blob/master/GitFileUploader.py) & [GitFileUploader.exe](https://drive.google.com/file/d/1GOuhYikHmWrT_0hkQlu7qoCft-kc1o90/view?usp=sharing)
 
 #
 # *Codemy.com*
