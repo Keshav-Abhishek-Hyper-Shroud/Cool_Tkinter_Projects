@@ -83,7 +83,11 @@ def rolledby1():
 			player_1_score_value=random.randint(1,player_1_score_value)
 			bite_1=1
 		if bite_1!=0:
+			player_2['state']=DISABLED
+			player_1['state']=DISABLED
 			messagebox.showwarning('Oops!','Snake bite you! Be careful Player 1.')
+			player_2['state']=NORMAL
+			player_1['state']=NORMAL
 		player_1_score['text']=f'You are on {player_1_score_value}'
 		if player_1_score['text'].split(' ')[-1]=='100':
 			messagebox.showinfo('Hurry!','Player 1 Won!!')
@@ -107,7 +111,11 @@ def rolledby2():
 			player_2_score_value=random.randint(1,player_2_score_value)
 			bite_2=1
 		if bite_2!=0:
+			player_2['state']=DISABLED
+			player_1['state']=DISABLED
 			messagebox.showwarning('Oops!','Snake bite you! Be careful Player 2.')
+			player_2['state']=NORMAL
+			player_1['state']=NORMAL
 		player_2_score['text']=f'You are on {player_2_score_value}'
 		if player_2_score['text'].split(' ')[-1]=='100':
 			messagebox.showinfo('Hurry!','Player 2 Won!!')
