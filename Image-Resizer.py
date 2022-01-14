@@ -1,3 +1,5 @@
+# Libraries to be imported
+
 import os
 from tkinter import *
 from tkinter import filedialog
@@ -8,6 +10,7 @@ root=Tk()
 root.geometry('500x500')
 root.title('Image Resizer')
 
+# Helps to choose picture/image to be resized
 def browsePhoto():
     global imgLocation
     imgLocation = filedialog.askopenfilename(title='Open Image File', filetypes=[('PNG Files', '*.png'), ('JPG Files', '*.jpg'), ('JPEG Files', '*.jpeg')])
@@ -77,7 +80,7 @@ onlyIntergersAllowedLabelHeight = Label(frame_2,text='(Only Intergers)',font='ti
 onlyIntergersAllowedLabelHeight.grid(row=1,column=2)
 
 
-
+# Controls Width
 def widthControl(e):
     try:
         global ratio
@@ -88,6 +91,7 @@ def widthControl(e):
     except ValueError:
         pass
 
+# Controls Height
 def heightControl(e):
     try:
         global ratio
@@ -101,6 +105,7 @@ def heightControl(e):
 widthEntry.bind('<Key>',heightControl)
 heightEntry.bind('<Key>',widthControl)
 
+# Saves Resized Image
 def saveImage():
     global imgLocation
     try:
@@ -117,6 +122,7 @@ def saveImage():
 resizeSave = Button(main_frame,text='Resize & Save',font='times 18 bold',command=saveImage,state=DISABLED)
 resizeSave.pack(pady=10,fill=X)
 
+# Reset App
 global resetApp
 def resetApp():
     imageNameLabel.config(text=f'Image Name: no-file-choosen')
